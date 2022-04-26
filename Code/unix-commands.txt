@@ -1,0 +1,40 @@
+ping
+netstat
+nmap
+netdata
+tcpdump
+
+
+ifconfig (interface configurator) command is used to initialize an interface, assign IP Address to interface and enable or disable interface on demand.
+
+Ping (Packet INternet Groper) command is the best way to test connectivity between two nodes. Whether it is Local Area Network (LAN) or Wide Area Network (WAN).
+
+Nmap ("Network Mapper") is a free and open source (license) utility for network discovery and security auditing
+
+traceroute is a network troubleshooting utility that shows the number of hops taken to reach a destination also determines packets traveling path. Below we are tracing the route to the global DNS server IP Address and able to reach destination also shows the path of that packet is traveling.
+
+Netstat (Network Statistic) command displays connection info, routing table information, etc. To display routing table information use option as -r.
+
+Dig (domain information groper) query DNS related information like A Record, CNAME, MX Record, etc. This command is mainly used to troubleshoot DNS-related queries.
+
+nslookup command is also used to find out DNS-related queries. The following examples show A Record (IP Address) of tecmint.com.
+
+route command also shows and manipulates the ip routing table. To see the default routing table in Linux, type the following command.
+
+host command to find a name to IP or IP to name in IPv4 or IPv6 and also query DNS records.
+
+ARP (Address Resolution Protocol) is useful to view/add the contents of the kernel’s ARP tables. To see the default table use the command as.
+
+ethtool is a replacement for mii-tool. It is to view, setting speed and duplex of your Network Interface Card (NIC). You can set duplex permanently in /etc/sysconfig/network-scripts/ifcfg-eth0 with ETHTOOL_OPTS variable.
+
+iwconfig command in Linux is used to configure a wireless network interface. You can see and set the basic Wi-Fi details like SSID channel and encryption. You can refer man page of iwconfig to know more.
+
+The hostname is to identify in a network. Execute the hostname command to see the hostname of your box. You can set hostname permanently in /etc/sysconfig/network. Need to reboot box once set a proper hostname.
+
+The Nmcli and Nmtui tools are used to configure network settings and also used to manage network devices, create, modify, activate/deactivate, and delete network connections in Linux systems.
+
+tcpdump is a common packet analyzer that runs under the command line. It allows the user to intercept and display TCP/IP and other packets being transmitted or received over a network to which the computer is attached.
+
+Wireshark - slide 93
+
+Scapy is a powerful interactive packet manipulation program.
